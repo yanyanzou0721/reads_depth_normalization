@@ -22,7 +22,7 @@ def f(x):
 @click.argument("input_txt")
 @click.option("--outdir", "-O",
     default="./",
-    help="path to output splited fastq files.")
+    help="path to output files.")
 
 
 def main_(input_txt, outdir):
